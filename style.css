@@ -1,0 +1,56 @@
+body {
+    background-color: #231836; /* Fundo escuro */
+    color: #95bbe8; /* Texto claro */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+/* Estilo para os títulos */
+h1 {
+    color: #733fab; /* Cor do título */
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+
+h2 {
+    color: #543ba3; /* Cor para subtítulos */
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+/* Estilo para parágrafos */
+p {
+    max-width: 600px; 
+    margin: auto;
+    margin-bottom: 5px;
+    line-height: 1.7;
+}
+
+/* Estilo para links */
+a {
+    color: #b058c6; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+}
+a:hover {
+    color: #8644b3;
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+.img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.imagem-redonda{
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: center;
+}
+
+iframe {
+    margin-top: 20px;
+}
